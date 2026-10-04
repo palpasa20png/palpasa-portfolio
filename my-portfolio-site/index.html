@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Palpasa Regmi | Portfolio</title>
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        html {
+
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-color: #f3f6fc;
+
+            color: #263247;
+
+            line-height: 1.7;
+
+        }
+
+        header {
+
+            background: linear-gradient(135deg, #14213d, #274c77);
+
+            color: white;
+
+            text-align: center;
+
+            padding: 55px 20px;
+
+        }
+
+        header h1 {
+
+            font-size: 2.5rem;
+
+            margin-bottom: 10px;
+
+        }
+
+        header p {
+
+            color: #dbeafe;
+
+            margin-bottom: 25px;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            gap: 12px;
+
+            margin-top: 20px;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 10px 18px;
+
+            border: 1px solid #91b8e8;
+
+            border-radius: 25px;
+
+            transition: 0.3s;
+
+        }
+
+        nav a:hover {
+
+            background-color: white;
+
+            color: #14213d;
+
+        }
+
+        main {
+
+            max-width: 1000px;
+
+            width: calc(100% - 40px);
+
+            margin: 40px auto;
+
+            display: grid;
+
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+
+            gap: 24px;
+
+        }
+
+        section {
+
+            background-color: white;
+
+            padding: 28px;
+
+            border-radius: 14px;
+
+            border: 1px solid #e0e7f1;
+
+            box-shadow: 0 5px 18px rgba(20, 33, 61, 0.06);
+
+        }
+
+        section h2 {
+
+            color: #274c77;
+
+            margin-bottom: 15px;
+
+            font-size: 1.5rem;
+
+        }
+
+        section p {
+
+            margin-bottom: 10px;
+
+        }
+
+        section ul {
+
+            padding-left: 22px;
+
+        }
+
+        article {
+
+            background-color: #f3f6fc;
+
+            padding: 18px;
+
+            border-radius: 10px;
+
+        }
+
+        article h3 {
+
+            color: #14213d;
+
+            margin-bottom: 8px;
+
+        }
+
+        #contact {
+
+            border-top: 4px solid #4f86c6;
+
+        }
+
+        footer {
+
+            background-color: #14213d;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 22px;
+
+            margin-top: 40px;
+
+        }
+
+        @media screen and (max-width: 650px) {
+
+            header {
+
+                padding: 35px 16px;
+
+            }
+
+            header h1 {
+
+                font-size: 1.8rem;
+
+            }
+
+            nav {
+
+                flex-direction: column;
+
+                align-items: stretch;
+
+                gap: 10px;
+
+            }
+
+            nav a {
+
+                display: block;
+
+            }
+
+            main {
+
+                width: calc(100% - 28px);
+
+                margin: 22px auto;
+
+                grid-template-columns: 1fr;
+
+                gap: 18px;
+
+            }
+
+            section {
+
+                padding: 22px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Palpasa Regmi</h1>
+
+        <p>Student | Creative Thinker | Web Design Enthusiast</p>
+
+        <nav>
+
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+
+                Hello! My name is Palpasa Regmi. I am a student interested in
+
+                technology, creativity, and learning new things.
+
+            </p>
+
+            <p>
+
+                I enjoy exploring new ideas and developing my skills in
+
+                web design and technology.
+
+            </p>
+
+        </section>
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <ul>
+
+                <li>HTML</li>
+
+                <li>CSS</li>
+
+                <li>Web Design</li>
+
+                <li>Communication</li>
+
+                <li>Problem Solving</li>
+
+            </ul>
+
+        </section>
+
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <article>
+
+                <h3>Glowup Skincare</h3>
+
+                <p>
+
+                    A skincare-focused project designed to help users
+
+                    discover suitable skincare products and routines.
+
+                </p>
+
+            </article>
+
+            <br>
+
+            <article>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+
+                    A personal portfolio website created using HTML and CSS
+
+                    to showcase my skills, interests, and projects.
+
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>Email: palpasa.regmi@example.com</p>
+
+            <p>Location: Kathmandu, Nepal</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 Palpasa Regmi. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
